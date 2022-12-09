@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+html body #root{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/home.jpg);
+    background-size:cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    border-bottom: 3px solid white;
+    padding: 15px 0px;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+header h2 {
+    margin: 0px;
+}
+
+header nav {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+main .sub-home-top {
+    margin-top: 250px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+.sub-home-top .text {
+    margin-bottom: 80px;
+}
+ 
+.home-top .botones {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.home-top .boton-patrones {
+    border: 1px solid white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.home-top .boton-proyecto {
+    padding: 15px;
+    text-decoration: none;
+}
+
+main .home-top .flecha-home-top {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 10px;
+}
+
+main .home-second {
+    border-top: 3px solid white;
+
+}
+
+main .home-second .seccion-patrones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px auto 80px;
+}
+
+.home-second .text h1 {
+    text-align: center;
+    margin: 40px auto 20px;
+}
+
+main .home-second .seccion-patrones .patron {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 10px;
+    width: 33.33%;
+    text-decoration: none;
+}
+
+.seccion-patrones .ver-mas-patrones {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 10px;
+    width: 66.66%;
+    text-decoration: none;
+}
+
+.ver-mas-patrones .texto-ver-mas {
+    margin: auto;
+}
+
+.patron .texto-patron {
+    margin: 5px 5px 35px 5px;
+}
+
+.patron .flecha {
+    display: flex;
+    margin-right: 10px;
+}
+
+.flecha i {
+    margin-left: 90%;
+}
+
+.home-second .seccion-patrones .patron .texto-patron p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.patron .titulo-patron {
+    width: 70%;
+} 
+
+.seccion-patrones .flecha-home-second {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 10px;
+}
+
+main .home-third {
+    border-top: 3px solid white;
+}
+
+main .home-third .titulo-home-third h1 {
+    text-align: center;
+    margin: 60px auto;
+    width: 80%;
+}
+
+.home-third .circulo {
+    display: flex;
+    border: 1px solid white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 100px auto 100px;
+    text-decoration: none;
+}
+
+.circulo p{
+    margin: auto;
+}
+
+.home-third .flecha-home-third {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 100px;
+}
+
+main .home-fourth {
+    border-top: 3px solid white;
+}
+
+.home-fourth .seccion-sobre-proyecto {
+    margin: 40px auto 60px;
+}
+
+.seccion-sobre-proyecto .titulo-sobre-proyecto  h1{
+    text-align: center;
+    margin: 60px auto;
+}
+
+.seccion-sobre-proyecto .item {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px
+
+}
+
+.seccion-sobre-proyecto .ver-mas-sobre-proyecto {
+    text-decoration: none;
+    text-align: center;
+    margin: 60px auto 15px;
+}
+
+.item .foto-circulo {
+    display: flex;
+    border: 1px solid white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.item .texto {
+    width: 70%;
+}
+
+.item .texto .nombre {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.item .texto .descripcion {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main .flecha-home-fourth {
+    font-size: 32px;
+    display: flex;
+    justify-content: end;
+    margin: 20px 40px 100px;
+}
+
+main .footer {
+    border-top: 3px solid white;
+}
+
+.footer .contacto {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.contacto .titulo {
+    font-size: 22px;
+}
+
+.footer .copyright {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copyright a {
+    text-decoration: none;
+}
