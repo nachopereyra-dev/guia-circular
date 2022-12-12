@@ -14,7 +14,7 @@ function HomeTop() {
                 </div>
 
                 <div className="botones">
-                    <Link className="boton-patrones">Ver patrones</Link>
+                    <Link to={'/patrones'} className="boton-patrones">Ver patrones</Link>
                     <Link className="boton-proyecto">Sobre el proyecto</Link>
                 </div>
 

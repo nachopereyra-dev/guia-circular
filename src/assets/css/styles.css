@@ -8,23 +8,29 @@ html body #root{
     display: flex;
     flex-direction: column;
     background-image: url(../img/home.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
 main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 60px;
 }
 
 header {
-    border-bottom: 3px solid white;
-    padding: 15px 0px;
+    border-bottom: 4px solid white;
+    padding: 10px 0px;
     position: fixed;
     backdrop-filter: blur(8px);
     top:0;
     left:0;
     width: 100%;
+}
+
+header img {
+    display: flex;
+    align-self: center;
 }
 
 header h2 {
@@ -40,8 +46,8 @@ header nav {
 }
 
 main .sub-home-top {
-    margin-top: 250px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 60px;
     padding: 20px;
 }
 
@@ -82,12 +88,12 @@ main .home-second .seccion-patrones {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin: 20px auto 80px;
+    margin: 20px auto 60px;
 }
 
 .home-second .text h1 {
     text-align: center;
-    margin: 40px auto 20px;
+    margin: 30px auto 20px;
 }
 
 main .home-second .seccion-patrones .patron {
@@ -114,7 +120,7 @@ main .home-second .seccion-patrones .patron {
 }
 
 .patron .texto-patron {
-    margin: 5px 5px 35px 5px;
+    margin: 5px 5px 20px 5px;
 }
 
 .patron .flecha {
@@ -132,14 +138,14 @@ main .home-second .seccion-patrones .patron {
 }
 
 .patron .titulo-patron {
-    width: 70%;
+    width: 95%;
 } 
 
 .seccion-patrones .flecha-home-second {
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin: 60px auto 10px;
+    margin: 40px auto 10px;
 }
 
 main .home-third {
@@ -148,8 +154,8 @@ main .home-third {
 
 main .home-third .titulo-home-third h1 {
     text-align: center;
-    margin: 60px auto;
-    width: 80%;
+    margin: 30px auto;
+    width: 90%;
 }
 
 .home-third .circulo {
@@ -158,7 +164,7 @@ main .home-third .titulo-home-third h1 {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 100px auto 100px;
+    margin: 50px auto;
     text-decoration: none;
 }
 
@@ -170,7 +176,7 @@ main .home-third .titulo-home-third h1 {
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin: 80px auto 100px;
+    margin: 80px auto 60px;
 }
 
 main .home-fourth {
@@ -178,12 +184,12 @@ main .home-fourth {
 }
 
 .home-fourth .seccion-sobre-proyecto {
-    margin: 40px auto 60px;
+    margin: 30px auto 60px;
 }
 
 .seccion-sobre-proyecto .titulo-sobre-proyecto  h1{
     text-align: center;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 .seccion-sobre-proyecto .item {
@@ -197,7 +203,7 @@ main .home-fourth {
 .seccion-sobre-proyecto .ver-mas-sobre-proyecto {
     text-decoration: none;
     text-align: center;
-    margin: 60px auto 15px;
+    margin: 30px auto 15px;
 }
 
 .item .foto-circulo {
@@ -228,9 +234,11 @@ main .home-fourth {
 main .flecha-home-fourth {
     font-size: 32px;
     display: flex;
-    justify-content: end;
-    margin: 20px 40px 100px;
+    justify-content: flex-end;
+    margin: 20px 40px 60px;
 }
+
+/* FOOTER MOBILE */
 
 main .footer {
     border-top: 3px solid white;
@@ -253,4 +261,150 @@ main .footer {
 
 .copyright a {
     text-decoration: none;
+}
+
+/* PATRONES MOBILE */
+
+main .patrones .seccion-patrones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px auto 120px;
+}
+
+.patrones .text h1 {
+    text-align: center;
+    margin: 10px auto 20px;
+}
+
+main .patrones .seccion-patrones .patron {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 5px;
+    width: 33.33%;
+    text-decoration: none;
+}
+
+.seccion-patrones .ver-mas-patrones {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 10px;
+    width: 66.66%;
+    text-decoration: none;
+}
+
+.ver-mas-patrones .texto-ver-mas {
+    margin: auto;
+}
+
+.patron .texto-patron {
+    margin: 5px 5px 20px 5px;
+}
+
+.patron .flecha {
+    display: flex;
+    margin-right: 10px;
+}
+
+.flecha i {
+    margin-left: 90%;
+}
+
+.patrones .seccion-patrones .patron .texto-patron p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.patron .titulo-patron {
+    width: 85%;
+} 
+
+.patrones .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px
+}
+
+/* EMPRESAS MOBILE */
+
+main .empresas {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresas .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px
+}
+
+.empresas .text h1 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 20px;
+}
+
+.text p {
+    margin: 20px;
+}
+
+.empresas .seccion-empresas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto 60px;
+}
+
+.seccion-empresas .empresa {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-empresas .circulo-empresa {
+    display: flex;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circulo-empresa p {
+    font-size: 12px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+/* SOBRE-PROYECTO MOBILE */
+
+main .sobre-proyecto {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-proyecto .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px
+}
+
+.sobre-proyecto h1 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 10px;
+}
+
+.sobre-proyecto p {
+    margin: 20px;
 }

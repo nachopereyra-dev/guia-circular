@@ -8,10 +8,10 @@ export const NavbarWrapper = styled.nav`
   backdrop-filter: blur(8px);
   color: black;
   position: fixed;
-  top: 9vh;
+  top: 10vh;
   right: ${props => (props.open ? "0" : "-100%")};
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 150vw;
   transition: right 0.3s linear;
 
   a {

@@ -10,6 +10,8 @@ function Patron(props) {
                         <div className="texto-patron">
                             <p className="numero-patron">{props.numero}</p>
                             <p className="titulo-patron">{props.titulo}</p>
+                            <p className="titulo-patron">{props.tituloSegundo}</p>
+
                         </div>
                         
                         <div className="flecha">
