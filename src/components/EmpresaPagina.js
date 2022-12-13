@@ -1,6 +1,6 @@
 import React from "react";
-import Empresa from './Empresa'
-import Footer from "./Footer";
+import { useParams } from 'react-router-dom'
+import Footer from './Footer'
 
 let empresa1 = {
     id: 1,
@@ -58,41 +58,32 @@ let empresa9 = {
 
 let empresas = [empresa1, empresa2, empresa3, empresa4, empresa5, empresa6, empresa7, empresa8, empresa9]
 
-function Empresas(props) {
+
+function EmpresaPagina(props) {
+
+    const params = useParams()
+    
+    const empresa = empresas.find(empresa => empresa.query == params.nombre)
+    console.log(empresa)
+
     return (
         <>
-        <main>
-
-            <div className="empresas">
+            <main>
+                <div className="empresa-pagina">
 
                 <div className="flecha-anterior">
                     <i class="fa-solid fa-arrow-left"></i>
                 </div>
 
-                <div className="text">
-
-                    <h1>Empresas circulares en Maldonado</h1>
-
-                    <p>Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis. Tristique integer amet tempor quisque.  Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis.</p>
-                
-                </div>
-
-                <div className="seccion-empresas">
-
-                        {
-                            empresas.map((empresa,i) => {
-                                return <Empresa {...empresa} key={empresa+i} />
-                            })
-                        }
+                <h2>{empresa.nombre}</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis. Tristique integer amet tempor quisque.  Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis.</p>
 
                 </div>
 
-            </div>
-
-        <Footer/>
-        </main>
+                <Footer/>
+            </main>
         </>
     )
 }
 
-export default Empresas
+export default EmpresaPagina

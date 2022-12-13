@@ -334,6 +334,33 @@ main .patrones .seccion-patrones .patron {
     margin: 20px 30px
 }
 
+/* PATRON PAGINA MOBILE */
+
+main .patron-pagina {
+    margin-top: 80px;
+}
+
+.patron-pagina .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px
+}
+
+.patron-pagina h2 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 20px;
+}
+
+.patron-pagina p {
+    margin: 20px;
+}
+
+.patron-pagina .segundo {
+    margin-bottom: 40px;
+}
+
 /* EMPRESAS MOBILE */
 
 main .empresas {
@@ -388,6 +415,29 @@ main .empresas {
     margin: auto;
     padding: 15px;
 
+}
+
+/* EMPRESA PAGINA MOBILE */
+
+main .empresa-pagina {
+    margin-top: 80px;
+}
+
+.empresa-pagina .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px
+}
+
+.empresa-pagina h2 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 20px;
+}
+
+.empresa-pagina p {
+    margin: 20px;
 }
 
 /* SOBRE-PROYECTO MOBILE */
