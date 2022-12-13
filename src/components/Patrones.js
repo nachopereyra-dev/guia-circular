@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 import Footer from "./Footer";
 import Patron from './Patron'
 
@@ -92,7 +91,8 @@ let patron17 = {
 
 let patrones = [patron1, patron2, patron3, patron4, patron5, patron6, patron7, patron8, patron9, patron10, patron11, patron12, patron13, patron14, patron15, patron16, patron17]
 
-function Patrones() {
+function Patrones(props) {
+
     return (
         <>
         <main>

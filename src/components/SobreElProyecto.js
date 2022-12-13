@@ -52,7 +52,7 @@ function SobreProyecto() {
                         })
                     }
                 
-                <p>Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
+                <p className="segundo">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
 
                 </div>
             </div>

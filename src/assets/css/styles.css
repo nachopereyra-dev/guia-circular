@@ -7,15 +7,15 @@
 html body #root{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/home.jpg);
-    background-size: cover;
+
 }
 
 main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 60px;
+    background-image: url(../img/home.jpg);
+    background-size: cover;
 }
 
 header {
@@ -46,7 +46,7 @@ header nav {
 }
 
 main .sub-home-top {
-    margin-top: 150px;
+    margin-top: 220px;
     margin-bottom: 60px;
     padding: 20px;
 }
@@ -265,6 +265,10 @@ main .footer {
 
 /* PATRONES MOBILE */
 
+main .patrones {
+    margin-top: 80px;
+}
+
 main .patrones .seccion-patrones {
     display: flex;
     flex-direction: row;
@@ -335,6 +339,7 @@ main .patrones .seccion-patrones .patron {
 main .empresas {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 .empresas .flecha-anterior {
@@ -350,7 +355,7 @@ main .empresas {
     margin: 10px auto 20px;
 }
 
-.text p {
+.empresas .text p {
     margin: 20px;
 }
 
@@ -390,6 +395,7 @@ main .empresas {
 main .sobre-proyecto {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 .sobre-proyecto .flecha-anterior {
@@ -407,4 +413,8 @@ main .sobre-proyecto {
 
 .sobre-proyecto p {
     margin: 20px;
+}
+
+.sobre-proyecto .segundo {
+    margin-bottom: 40px;
 }

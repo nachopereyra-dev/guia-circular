@@ -8,7 +8,7 @@ export const NavbarWrapper = styled.nav`
   backdrop-filter: blur(8px);
   color: black;
   position: fixed;
-  top: 10vh;
+  top: 8.5vh;
   right: ${props => (props.open ? "0" : "-100%")};
   width: 100vw;
   height: 150vw;
