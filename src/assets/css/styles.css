@@ -1,3 +1,5 @@
+/* GENERAL */
+
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -7,7 +9,6 @@
 html body #root{
     display: flex;
     flex-direction: column;
-
 }
 
 main {
@@ -17,6 +18,8 @@ main {
     background-image: url(../img/home.jpg);
     background-size: cover;
 }
+
+/* HEADER MOBILE */
 
 header {
     border-bottom: 4px solid white;
@@ -46,9 +49,11 @@ header nav {
     display: none;
 }
 
-.sidebar {
+#root .sidebar {
     display: none;
 }
+
+/* HOME-TOP MOBILE */
 
 main .sub-home-top {
     margin-top: 220px;
@@ -83,6 +88,8 @@ main .home-top .flecha-home-top {
     margin: 80px auto 20px;
     text-decoration: none;
 }
+
+/* HOME-SECOND MOBILE */
 
 main .home-second {
     border-top: 3px solid white;
@@ -155,6 +162,8 @@ main .home-second .seccion-patrones .patron {
     text-decoration: none;
 }
 
+/* HOME-THIRD MOBILE */
+
 main .home-third {
     border-top: 3px solid white;
 }
@@ -186,6 +195,8 @@ main .home-third .titulo-home-third h1 {
     margin: 80px auto 120px;
     text-decoration: none;
 }
+
+/* HOME-FOURTH MOBILE */
 
 main .home-fourth {
     border-top: 3px solid white;
@@ -505,4 +516,159 @@ main .sobre-proyecto {
 
 .sobre-proyecto .segundo {
     margin-bottom: 40px;
+}
+
+/* DESKTOP */
+
+@media (min-width: 1280px) {
+
+html body #root {
+    flex-direction: row;
+}
+
+main {
+    width: 100%;
+}
+
+.home-top, .home-second, .home-third, .home-fourth, .footer {
+    margin-left: 20%;
+}
+
+/* HEADER DESKTOP */
+
+header {
+    border-bottom: none;
+    border-right: 4px solid white;
+    padding: 0px 20px;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    top:0;
+    left:0;
+    width: 20%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    display: none
+}
+
+header h2 {
+    padding: 50px 10px;
+}
+
+header span {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#root .sidebar {
+    display: none;
+}
+
+/* HOME-TOP DESKTOP */
+
+main .sub-home-top {
+    padding: 120px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+ 
+.home-top .botones {
+    margin-top: 150px;
+}
+
+main .home-top .flecha-home-top {
+    margin: 120px auto 30px;
+}
+
+/* HOME-SECOND DESKTOP */
+
+main .home-second {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+main .home-second .seccion-patrones {
+    padding: 60px 180px;
+    margin: 20px auto;
+}
+
+.home-second .text h1 {
+    margin: 90px auto 40px;
+}
+
+.seccion-patrones .flecha-home-second {
+    margin: 100px auto 0px;
+}
+
+/* HOME-THIRD DESKTOP */
+
+main .home-third {
+    padding: 80px 120px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.home-third .circulo {
+    margin: 100px auto;
+}
+
+.home-third .flecha-home-third {
+    margin: 80px auto 100px;
+}
+
+/* HOME-FOURTH DESKTOP */
+
+main .home-fourth {
+    padding: 40px 120px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.home-fourth .seccion-sobre-proyecto {
+    margin: 0 auto 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-sobre-proyecto .titulo-sobre-proyecto h1{
+    margin-bottom: 40px;
+}
+
+.seccion-sobre-proyecto .item {
+    justify-content: center;
+    width: 100%;
+    margin: 20px
+
+}
+
+.seccion-sobre-proyecto .ver-mas-sobre-proyecto {
+    margin: 15px auto 15px;
+}
+
+.item .texto {
+    width: 70%;
+}
+
+.item .texto .nombre {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.item .texto .descripcion {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main .flecha-home-fourth {
+    justify-content: center;
+    margin: 15px 40px 75px;
+}
+
 }

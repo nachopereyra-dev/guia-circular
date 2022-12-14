@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './Header';
-import SideBar from './SideBar';
 import Home from './Home';
 import Patrones from "./Patrones";
 import PatronPagina from './PatronPagina';
@@ -15,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
     <Header/>
-    <SideBar/>
 
     <Routes>
                     <Route path="/" element={<Home />} />

@@ -18,14 +18,14 @@ function Header() {
     return (
       <HeaderWrapper>
 
-        <Navbar open={open} handleClick={handleClick} />
 
         <MenuButton open={open} handleClick={handleClick} />
-
         
         <div className="logo" onClick={() => onClick('home')}>
-            <h2>Guia circular | <span>Home</span></h2>
+            <h2>Guia circular</h2>
         </div>
+
+        <Navbar open={open} handleClick={handleClick} />
 
       </HeaderWrapper>
     );

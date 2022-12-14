@@ -24,12 +24,13 @@ export const NavbarWrapper = styled.nav`
 
   @media only screen and (min-width: 1280px) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0;
-    justify-content: flex-end;
     position: initial;
-    height: auto;
+    height: 100vw;
     font-size: 14px;
+    width: 100%;
+    margin: 80px 0px;
 
     
     a {
