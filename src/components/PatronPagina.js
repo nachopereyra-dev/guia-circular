@@ -125,10 +125,12 @@ function PatronPagina(props) {
                     <i class="fa-solid fa-arrow-left"></i>
                 </Link>
 
-                <h2>{patron.titulo}</h2>
-                <p>{patron.descripcion}</p>
-                <h2>Oportunidades circulares</h2>
-                <p className="segundo">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis. Tristique integer amet tempor quisque.  Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis.</p>
+                <div className="text">
+                    <h2>{patron.titulo}</h2>
+                    <p>{patron.descripcion}</p>
+                    <h2>Oportunidades circulares</h2>
+                    <p className="segundo">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis. Tristique integer amet tempor quisque.  Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis.</p>
+                </div>
             </div>
 
             <Footer/>

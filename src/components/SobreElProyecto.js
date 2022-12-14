@@ -23,12 +23,7 @@ let item4 = {
     descripcion: 'Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.'
 }
 
-let item5 = {
-    nombre: 'Título',
-    descripcion: 'Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.'
-}
-
-let sobreProyecto = [item1, item2, item3, item4, item5]
+let sobreProyecto = [item1, item2, item3, item4]
 
 function SobreProyecto() {
 
@@ -43,19 +38,23 @@ function SobreProyecto() {
                 <Link className="flecha-anterior" id="sobre-nosotros" onClick={() => navigate(-1)}>
                     <i class="fa-solid fa-arrow-left"></i>
                 </Link>
-
-                <h1>Sobre el proyecto</h1>
-                <p>Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
-
-                <div className="seccion-sobre-proyecto">
-
-                    {
-                        sobreProyecto.map((item,i) => {
-                            return <Item {...item} key={item+i} />
-                        })
-                    }
                 
-                <p className="segundo">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
+                    <div className="text">
+
+                        <h1>Sobre el proyecto</h1>
+                        <p className="primero">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
+
+                        <div className="seccion-sobre-proyecto">
+
+                            {
+                                sobreProyecto.map((item,i) => {
+                                    return <Item {...item} key={item+i} />
+                                })
+                            }
+                        
+                        <p className="segundo">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
+
+                    </div>
 
                 </div>
             </div>

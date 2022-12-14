@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 import { HeaderWrapper } from '../styles/Header'
 import Navbar from "./NavBar";
 import MenuButton from './MenuButton'
@@ -21,9 +22,9 @@ function Header() {
 
         <MenuButton open={open} handleClick={handleClick} />
         
-        <div className="logo" onClick={() => onClick('home')}>
+        <Link to={'./'} className="logo">
             <h2>Guia circular</h2>
-        </div>
+        </Link>
 
         <Navbar open={open} handleClick={handleClick} />
 

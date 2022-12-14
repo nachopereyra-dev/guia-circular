@@ -6,7 +6,7 @@ import cerrarBurgerMenu from '../assets/img/close.svg'
 const MenuButtonWrapper = styled.button`
     background-color: transparent;
     border: none;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 20px;
 
   @media only screen and (min-width: 1440px) {

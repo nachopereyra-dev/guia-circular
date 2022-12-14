@@ -36,6 +36,10 @@ header img {
     align-self: center;
 }
 
+header .logo {
+    text-decoration: none;
+}
+
 header h2 {
     margin: 0px;
 }
@@ -63,6 +67,7 @@ main .sub-home-top {
 
 .sub-home-top .text {
     margin-bottom: 80px;
+    width: 80%;
 }
  
 .home-top .botones {
@@ -214,8 +219,9 @@ main .home-fourth {
 .seccion-sobre-proyecto .item {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 80%;
-    margin: 40px
+    margin: 40px auto;
 
 }
 
@@ -495,6 +501,11 @@ main .sobre-proyecto {
     margin-top: 80px;
 }
 
+.sobre-proyecto .seccion-sobre-proyecto {
+    display: flex;
+    flex-direction: column;
+}
+
 .sobre-proyecto .flecha-anterior {
     font-size: 32px;
     display: flex;
@@ -530,7 +541,11 @@ main {
     width: 100%;
 }
 
-.home-top, .home-second, .home-third, .home-fourth, .footer {
+.home-top, .home-second, .home-third, .home-fourth, .footer, .not-found {
+    margin-left: 20%;
+}
+
+.patrones, .patron-pagina, .empresas, .empresa-pagina, .sobre-proyecto, .item {
     margin-left: 20%;
 }
 
@@ -575,6 +590,10 @@ main .sub-home-top {
     padding: 120px;
     margin-top: 120px;
     margin-bottom: 0;
+}
+
+main .sub-home-top .text {
+    width: 80%;
 }
  
 .home-top .botones {
@@ -669,6 +688,102 @@ main .home-fourth {
 main .flecha-home-fourth {
     justify-content: center;
     margin: 15px 40px 75px;
+}
+
+/* NOT FOUND DESKTOP */
+
+main .not-found h2 {
+    padding: 50px;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+main .not-found .flecha-anterior {
+    margin: 20px 100px;
+}
+
+/* PATRONES DESKTOP */
+
+main .patrones .seccion-patrones {
+    padding: 60px 180px;
+    margin: 20px auto;
+}
+
+.patrones .flecha-anterior {
+    margin: 20px 100px;
+}
+
+/* PATRON PAGINA DESKTOP */
+
+.patron-pagina .text {
+    padding: 30px 180px 250px;
+}
+
+.patron-pagina .flecha-anterior {
+    margin: 20px 100px;
+}
+
+/* EMPRESAS MOBILE */
+
+.empresas .flecha-anterior {
+    margin: 20px 100px;
+}
+
+.empresas .text p {
+    padding: 20px 180px;
+}
+
+.empresas .seccion-empresas {
+    padding: 0px 250px;
+    margin: 20px auto;
+}
+
+.seccion-empresas .circulo-empresa {
+    margin: 15px 5px;
+}
+
+/* EMPRESA PAGINA MOBILE */
+
+
+.empresa-pagina .flecha-anterior {
+    margin: 20px 100px;
+}
+
+.empresa-pagina p {
+    padding: 30px 180px 250px;
+}
+
+/* SOBRE-PROYECTO DESKTOP */
+
+.sobre-proyecto .seccion-sobre-proyecto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion-sobre-proyecto .item {
+    width: 40%;
+}
+
+.sobre-proyecto .text {
+    padding: 0px 180px 50px;
+}
+
+.sobre-proyecto .text h1 {
+    margin: 0px
+}
+
+.sobre-proyecto .flecha-anterior {
+    margin: 20px 100px;
+}
+
+.sobre-proyecto .primero {
+    margin: 60px 20px;
+}
+
+.sobre-proyecto .segundo {
+    margin: 60px 20px;
 }
 
 }
