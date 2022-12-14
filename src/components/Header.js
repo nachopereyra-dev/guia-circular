@@ -24,8 +24,9 @@ function Header() {
 
         
         <div className="logo" onClick={() => onClick('home')}>
-            <h2>Guia circular |</h2>
+            <h2>Guia circular | <span>Home</span></h2>
         </div>
+
       </HeaderWrapper>
     );
   }

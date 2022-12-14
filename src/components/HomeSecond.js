@@ -41,9 +41,14 @@ let patronesTrabajados = [patron2, patron3, patron5, patron8, patron11, patron12
 
 
 function HomeSecond() {
+
+    const onClick = (sectionId) => {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth'})
+      }
+
     return (
         <>
-        <div className="home-second">
+        <div className="home-second" id="home-patrones">
         
             <div className="text">
                 <h1>Patrones</h1>
@@ -57,13 +62,13 @@ function HomeSecond() {
                     })
                 }
 
-                <Link className="ver-mas-patrones">
+                <Link to={'./patrones'} className="ver-mas-patrones" onClick={() => onClick('patrones')}>
                     <p className="texto-ver-mas">Ver +</p>
                 </Link>
 
-                <div className="flecha-home-second">
+                <Link className="flecha-home-second" onClick={() => onClick('home-empresas')}>
                     <i class="fa-solid fa-arrow-down"></i>
-                </div>
+                </Link>
 
             </div>
             

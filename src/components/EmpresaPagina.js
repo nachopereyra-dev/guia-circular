@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
 import Footer from './Footer'
 
 let empresa1 = {
@@ -61,6 +61,7 @@ let empresas = [empresa1, empresa2, empresa3, empresa4, empresa5, empresa6, empr
 
 function EmpresaPagina(props) {
 
+    const navigate = useNavigate()
     const params = useParams()
     
     const empresa = empresas.find(empresa => empresa.query == params.nombre)
@@ -71,9 +72,9 @@ function EmpresaPagina(props) {
             <main>
                 <div className="empresa-pagina">
 
-                <div className="flecha-anterior">
+                <Link className="flecha-anterior" onClick={() => navigate(-1)}>
                     <i class="fa-solid fa-arrow-left"></i>
-                </div>
+                </Link>
 
                 <h2>{empresa.nombre}</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis. Tristique integer amet tempor quisque.  Purus gravida pharetra blandit diam commodo vulputate id. Suscipit mi leo sed nam mattis. Mattis mi tortor posuere turpis.</p>

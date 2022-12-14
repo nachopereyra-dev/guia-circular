@@ -37,6 +37,11 @@ header h2 {
     margin: 0px;
 }
 
+header span {
+    font-size: 16px;
+    font-weight: 300;
+}
+
 header nav {
     display: none;
 }
@@ -75,7 +80,8 @@ main .home-top .flecha-home-top {
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin: 80px auto 10px;
+    margin: 80px auto 20px;
+    text-decoration: none;
 }
 
 main .home-second {
@@ -93,7 +99,7 @@ main .home-second .seccion-patrones {
 
 .home-second .text h1 {
     text-align: center;
-    margin: 30px auto 20px;
+    margin: 80px auto 40px;
 }
 
 main .home-second .seccion-patrones .patron {
@@ -145,7 +151,8 @@ main .home-second .seccion-patrones .patron {
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin: 40px auto 10px;
+    margin: 60px auto 10px;
+    text-decoration: none;
 }
 
 main .home-third {
@@ -154,7 +161,7 @@ main .home-third {
 
 main .home-third .titulo-home-third h1 {
     text-align: center;
-    margin: 30px auto;
+    margin: 80px auto 40px;
     width: 90%;
 }
 
@@ -176,7 +183,8 @@ main .home-third .titulo-home-third h1 {
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin: 80px auto 60px;
+    margin: 80px auto 120px;
+    text-decoration: none;
 }
 
 main .home-fourth {
@@ -189,7 +197,7 @@ main .home-fourth {
 
 .seccion-sobre-proyecto .titulo-sobre-proyecto  h1{
     text-align: center;
-    margin: 30px auto;
+    margin: 80px auto 40px;
 }
 
 .seccion-sobre-proyecto .item {
@@ -235,7 +243,8 @@ main .flecha-home-fourth {
     font-size: 32px;
     display: flex;
     justify-content: flex-end;
-    margin: 20px 40px 60px;
+    margin: 50px 40px 75px;
+    text-decoration: none;
 }
 
 /* FOOTER MOBILE */
@@ -260,6 +269,26 @@ main .footer {
 }
 
 .copyright a {
+    text-decoration: none;
+}
+
+/* NOT FOUND MOBILE */
+
+main .not-found {
+    margin-top: 80px;
+}
+
+main .not-found h2 {
+    padding: 50px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+main .not-found .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px;
     text-decoration: none;
 }
 
@@ -331,7 +360,8 @@ main .patrones .seccion-patrones .patron {
     font-size: 32px;
     display: flex;
     justify-content: flex-start;
-    margin: 20px 30px
+    margin: 20px 30px;
+    text-decoration: none;
 }
 
 /* PATRON PAGINA MOBILE */
@@ -344,7 +374,9 @@ main .patron-pagina {
     font-size: 32px;
     display: flex;
     justify-content: flex-start;
-    margin: 20px 30px
+    margin: 20px 30px;
+    text-decoration: none;
+
 }
 
 .patron-pagina h2 {
@@ -373,7 +405,9 @@ main .empresas {
     font-size: 32px;
     display: flex;
     justify-content: flex-start;
-    margin: 20px 30px
+    margin: 20px 30px;
+    text-decoration: none;
+
 }
 
 .empresas .text h1 {
@@ -427,7 +461,9 @@ main .empresa-pagina {
     font-size: 32px;
     display: flex;
     justify-content: flex-start;
-    margin: 20px 30px
+    margin: 20px 30px;
+    text-decoration: none;
+
 }
 
 .empresa-pagina h2 {
@@ -452,7 +488,9 @@ main .sobre-proyecto {
     font-size: 32px;
     display: flex;
     justify-content: flex-start;
-    margin: 20px 30px
+    margin: 20px 30px;
+    text-decoration: none;
+
 }
 
 .sobre-proyecto h1 {

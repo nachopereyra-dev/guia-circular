@@ -2,9 +2,14 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 function HomeTop() {
+
+    const onClick = (sectionId) => {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth'})
+      }
+
     return (
         <>
-        <div className="home-top">
+        <div className="home-top" id="home-top">
 
             <div className="sub-home-top">
 
@@ -15,12 +20,12 @@ function HomeTop() {
 
                 <div className="botones">
                     <Link to={'/patrones'} className="boton-patrones">Ver patrones</Link>
-                    <Link className="boton-proyecto">Sobre el proyecto</Link>
+                    <Link to={'/sobre-nosotros'} className="boton-proyecto">Sobre el proyecto</Link>
                 </div>
 
-                <div className="flecha-home-top">
+                <Link className="flecha-home-top" onClick={() => onClick('home-patrones')}>
                     <i class="fa-solid fa-arrow-down"></i>
-                </div>
+                </Link>
 
             </div>
             

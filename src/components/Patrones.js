@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Patron from './Patron'
+import { Link, useNavigate } from 'react-router-dom'
 
 let patron1 = {
     numero: 1,
@@ -112,15 +113,17 @@ let patrones = [patron1, patron2, patron3, patron4, patron5, patron6, patron7, p
 
 function Patrones(props) {
 
+    const navigate = useNavigate()
+
     return (
         <>
         <main>
 
             <div className="patrones">
 
-                <div className="flecha-anterior">
+                <Link className="flecha-anterior" id="patrones" onClick={() => navigate(-1)}>
                     <i class="fa-solid fa-arrow-left"></i>
-                </div>
+                </Link>
                 
                 <div className="text">
                         <h1>Patrones</h1>

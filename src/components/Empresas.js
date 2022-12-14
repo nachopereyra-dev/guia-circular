@@ -1,6 +1,7 @@
 import React from "react";
 import Empresa from './Empresa'
 import Footer from "./Footer";
+import { Link, useNavigate } from 'react-router-dom'
 
 let empresa1 = {
     id: 1,
@@ -59,15 +60,18 @@ let empresa9 = {
 let empresas = [empresa1, empresa2, empresa3, empresa4, empresa5, empresa6, empresa7, empresa8, empresa9]
 
 function Empresas(props) {
+
+    const navigate = useNavigate()
+
     return (
         <>
         <main>
 
             <div className="empresas">
 
-                <div className="flecha-anterior">
+                <Link className="flecha-anterior" id="empresas" onClick={() => navigate(-1)}>
                     <i class="fa-solid fa-arrow-left"></i>
-                </div>
+                </Link>
 
                 <div className="text">
 

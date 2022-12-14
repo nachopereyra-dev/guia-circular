@@ -1,6 +1,7 @@
 import React from "react";
 import Item from './ItemSobreProyecto'
 import Footer from "./Footer";
+import { Link, useNavigate } from "react-router-dom";
 
 let item1 = {
     nombre: 'Título',
@@ -30,15 +31,18 @@ let item5 = {
 let sobreProyecto = [item1, item2, item3, item4, item5]
 
 function SobreProyecto() {
+
+    const navigate = useNavigate()
+
     return (
         <>
         <main>
 
             <div className="sobre-proyecto">
 
-                <div className="flecha-anterior">
+                <Link className="flecha-anterior" id="sobre-nosotros" onClick={() => navigate(-1)}>
                     <i class="fa-solid fa-arrow-left"></i>
-                </div>
+                </Link>
 
                 <h1>Sobre el proyecto</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>

@@ -1,10 +1,24 @@
 import React from "react";
+import { Link, useNavigate } from 'react-router-dom'
+import Footer from "./Footer";
 
 function NotFound() {
+
+    const navigate = useNavigate()
+
     return (
         <>
             <main>
-                <h1>Ruta incorrecta</h1>
+                <div className="not-found">
+
+                    <Link className="flecha-anterior" onClick={() => navigate(-1)}>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </Link>
+
+                    <h2>Ruta incorrecta 😅, vuelve atras</h2>
+                </div>
+
+                <Footer/>
             </main>
         </>
     )

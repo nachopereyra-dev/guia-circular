@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import Item from './ItemSobreProyecto'
 
 let item1 = {
@@ -19,10 +20,15 @@ let item3 = {
 let sobreNosotros = [item1, item2, item3]
 
 function HomeFourth() {
+
+    const onClick = (sectionId) => {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth'})
+      }
+
     return (
         <>
 
-            <div className="home-fourth">
+            <div className="home-fourth" id="home-sobre-nosotros">
 
                 <div className="seccion-sobre-proyecto">
 
@@ -36,13 +42,13 @@ function HomeFourth() {
                         })
                     }
 
-                    <div className="ver-mas-sobre-proyecto">
+                    <Link to={'./sobre-nosotros'} className="ver-mas-sobre-proyecto" onClick={() => onClick('sobre-nosotros')}>
                         <p>Ver +</p>
-                    </div>
+                    </Link>
 
-                    <div className="flecha-home-fourth">
+                    <Link className="flecha-home-fourth" onClick={() => onClick('home-top')}>
                         <i class="fa-solid fa-arrow-up"></i>
-                    </div>
+                    </Link>
                 </div>
             
             </div>

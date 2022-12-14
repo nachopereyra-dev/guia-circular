@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
 import Footer from "./Footer";
 
 let patron1 = {
@@ -112,7 +112,7 @@ let patrones = [patron1, patron2, patron3, patron4, patron5, patron6, patron7, p
 function PatronPagina(props) {
 
     const id = useParams()
-    console.log(id)
+    const navigate = useNavigate()
     
     const patron = patrones.find(patron => patron.query == id.titulo)
 
@@ -121,9 +121,9 @@ function PatronPagina(props) {
         <main>
             <div className="patron-pagina">
 
-                <div className="flecha-anterior">
+                <Link className="flecha-anterior" onClick={() => navigate(-1)}>
                     <i class="fa-solid fa-arrow-left"></i>
-                </div>
+                </Link>
 
                 <h2>{patron.titulo}</h2>
                 <p>{patron.descripcion}</p>
