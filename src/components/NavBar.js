@@ -12,10 +12,10 @@ function Navbar({open, handleClick}) {
     return (
 
       <NavbarWrapper open={open}>
-        <Link to={'/'} onClick={() => onClick('home')}>Home</Link>
-        <Link to={'/patrones'} onClick={() => onClick('projects')}>Patrones</Link>
-        <Link to={'/empresas'} onClick={() => onClick('about-me')}>Empresas circulares</Link>
-        <Link to={'/sobre-nosotros'} onClick={() => onClick('contact')}>Sobre el proyecto</Link>
+        <Link to={'/'} onClick={() => onClick('home-top')}>Home</Link>
+        <Link to={'/patrones'} onClick={() => onClick('patrones')}>Patrones</Link>
+        <Link to={'/empresas'} onClick={() => onClick('empresas')}>Empresas circulares</Link>
+        <Link to={'/sobre-nosotros'} onClick={() => onClick('sobre-proyecto')}>Sobre el proyecto</Link>
       </NavbarWrapper>
     );
   }

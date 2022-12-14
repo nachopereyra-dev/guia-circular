@@ -12,10 +12,6 @@ function Header() {
       setOpen(!open)
     };
 
-    const onClick = (sectionId) => {
-      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth'})
-    }
-  
     return (
       <HeaderWrapper>
 
