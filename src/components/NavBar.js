@@ -4,18 +4,17 @@ import { Link } from 'react-router-dom'
 
 function Navbar({open, handleClick}) {
 
-    const onClick = (sectionId) => {
-      document.getElementById(sectionId).scrollIntoView()
+    const onClick = () => {
       handleClick()
     }
 
     return (
 
       <NavbarWrapper open={open}>
-        <Link to={'/'} onClick={() => onClick('home-top')}>Home</Link>
-        <Link to={'/patrones'} onClick={() => onClick('patrones')}>Patrones</Link>
-        <Link to={'/empresas'} onClick={() => onClick('empresas')}>Empresas circulares</Link>
-        <Link to={'/sobre-nosotros'} onClick={() => onClick('sobre-proyecto')}>Sobre el proyecto</Link>
+        <Link to={'/'} onClick={() => onClick()}>Home</Link>
+        <Link to={'/patrones'} onClick={() => onClick()}>Patrones</Link>
+        <Link to={'/empresas'} onClick={() => onClick()}>Empresas circulares</Link>
+        <Link to={'/sobre-nosotros'} onClick={() => onClick()}>Sobre el proyecto</Link>
       </NavbarWrapper>
     );
   }
