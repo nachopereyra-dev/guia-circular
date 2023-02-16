@@ -60,18 +60,18 @@ header nav {
 /* HOME-TOP MOBILE */
 
 main .sub-home-top {
-    margin-top: 220px;
+    margin-top: 180px;
     margin-bottom: 60px;
     padding: 20px;
 }
 
 .sub-home-top .text {
-    margin-bottom: 80px;
-    width: 80%;
+    margin-bottom: 20px;
+    width: 90%;
 }
  
 .home-top .botones {
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 0px;
 }
 
@@ -90,7 +90,7 @@ main .home-top .flecha-home-top {
     font-size: 32px;
     display: flex;
     justify-content: center;
-    margin: 80px auto 20px;
+    margin: 70px auto 20px;
     text-decoration: none;
 }
 
@@ -107,6 +107,10 @@ main .home-second .seccion-patrones {
     flex-wrap: wrap;
     width: 100%;
     margin: 20px auto 60px;
+}
+
+#home-patrones .text p {
+    margin: 20px;
 }
 
 .home-second .text h1 {
@@ -175,7 +179,7 @@ main .home-third {
 
 main .home-third .titulo-home-third h1 {
     text-align: center;
-    margin: 80px auto 40px;
+    margin: 100px auto 60px;
     width: 90%;
 }
 
@@ -185,7 +189,7 @@ main .home-third .titulo-home-third h1 {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 50px auto;
+    margin: 80px auto;
     text-decoration: none;
 }
 
@@ -244,10 +248,15 @@ main .home-fourth {
     width: 70%;
 }
 
+.item a {
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .item .texto .nombre {
-    font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin: 0px 5px 5px 0px
 }
 
 .item .texto .descripcion {
@@ -260,7 +269,7 @@ main .flecha-home-fourth {
     font-size: 32px;
     display: flex;
     justify-content: flex-end;
-    margin: 50px 40px 75px;
+    margin: 30px 40px 95px;
     text-decoration: none;
 }
 
@@ -678,17 +687,6 @@ main .home-fourth {
 
 .item .texto {
     width: 70%;
-}
-
-.item a {
-    display: flex;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.item .texto .nombre {
-    font-size: 14px;
-    margin: 0px 5px 5px 0px
 }
 
 .item .texto .descripcion {

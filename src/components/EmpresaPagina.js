@@ -108,7 +108,7 @@ function EmpresaPagina(props) {
     const navigate = useNavigate()
     const params = useParams()
     
-    const empresa = empresas.find(empresa => empresa.query == params.nombre)
+    const empresa = empresas.find(empresa => empresa.query === params.nombre)
     console.log(empresa)
 
     return (

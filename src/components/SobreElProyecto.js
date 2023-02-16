@@ -11,14 +11,14 @@ let item1 = {
 }
 
 let item2 = {
-    nombre: 'Alejo Silvarrey Barrufa ',
+    nombre: 'Alejo Silvarrey ',
     descripcion: 'Doctorado en Desarrollo Regional Sustentable',
     foto: '',
     in: 'https://www.linkedin.com/in/alejo-silvarrey-barruffa/ '
 }
 
 let item3 = {
-    nombre: 'Karina Guerrero Boullosa',
+    nombre: 'Karina Guerrero',
     descripcion: 'Licenciada en Administración - Contador',
     foto: '',
     in: 'https://www.linkedin.com/in/karina-guerrero-896b1240'
