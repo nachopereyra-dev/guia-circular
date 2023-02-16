@@ -15,7 +15,9 @@ function HomeTop() {
 
                 <div className="text">
                     <h1>Value proposition</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.</p>
+                    <p>Identificamos oportunidades circulares en el territorio uniendo oferta y demanda en distintas industrias que contribuyan al desarrollo modelos de negocios en clave de economía circular.<br></br>
+                    <br></br>
+                    Aplicamos la metodología Circular Design Thinking (3 vectores - Innodriven) en industrias del departamento de Maldonado identificando oportunidades circulares en las mismas.</p>
                 </div>
 
                 <div className="botones">

@@ -4,18 +4,24 @@ import Footer from "./Footer";
 import { Link, useNavigate } from "react-router-dom";
 
 let item1 = {
-    nombre: 'Título',
-    descripcion: 'Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.'
+    nombre: 'Antonella Bulla',
+    descripcion: 'Ingeniera en Telecomunicaciones',
+    foto: '',
+    in: 'https://www.linkedin.com/in/antonella-bulla-pellegrini/'
 }
 
 let item2 = {
-    nombre: 'Título',
-    descripcion: 'Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.'
+    nombre: 'Alejo Silvarrey Barrufa ',
+    descripcion: 'Doctorado en Desarrollo Regional Sustentable',
+    foto: '',
+    in: 'https://www.linkedin.com/in/alejo-silvarrey-barruffa/ '
 }
 
 let item3 = {
-    nombre: 'Título',
-    descripcion: 'Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.'
+    nombre: 'Karina Guerrero Boullosa',
+    descripcion: 'Licenciada en Administración - Contador',
+    foto: '',
+    in: 'https://www.linkedin.com/in/karina-guerrero-896b1240'
 }
 
 let item4 = {
@@ -42,7 +48,12 @@ function SobreProyecto() {
                     <div className="text">
 
                         <h1>Sobre el proyecto</h1>
-                        <p className="primero">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
+                        <p className="primero">El objetivo del proyecto Guía Circular es la detección de oportunidades de generación de modelos de negocios en clave circular a partir de empresas radicadas en territorio. Para ello se trabajó sobre las industrias Cáñamo, Pesca artesanal y Movilidad identificando estas oportunidades.<br></br>
+                        <br></br>
+                        Se usó la metodología CDT en cada una de las industrias, trabajando con los patrones de diseño circular.<br></br>
+                        <br></br>
+                        Se identificaron oportunidades de  generación de modelos de negocios a partir del analisis del ciclo de vida actual  actual de dichas industrias aplicando distintos patrones. 
+                        </p>
 
                         <div className="seccion-sobre-proyecto">
 

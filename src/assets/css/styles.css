@@ -328,6 +328,11 @@ main .patrones .seccion-patrones {
     margin: 10px auto 20px;
 }
 
+.patrones .text p {
+    padding: 40px;
+    margin: 0;
+}
+
 main .patrones .seccion-patrones .patron {
     display: flex;
     flex-direction: column;
@@ -362,6 +367,7 @@ main .patrones .seccion-patrones .patron {
 
 .flecha i {
     margin-left: 90%;
+    margin-bottom: 10px;
 }
 
 .patrones .seccion-patrones .patron .texto-patron p {
@@ -434,7 +440,7 @@ main .empresas {
 }
 
 .empresas .text p {
-    margin: 20px;
+    margin: 20px
 }
 
 .empresas .seccion-empresas {
@@ -455,17 +461,18 @@ main .empresas {
 .seccion-empresas .circulo-empresa {
     display: flex;
     border: 1px solid white;
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
     margin: 5px;
+    text-decoration: none;
 }
 
 .circulo-empresa p {
     font-size: 12px;
     margin: auto;
     padding: 15px;
-
+    text-align: center;
 }
 
 /* EMPRESA PAGINA MOBILE */
@@ -673,16 +680,20 @@ main .home-fourth {
     width: 70%;
 }
 
+.item a {
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .item .texto .nombre {
-    font-size: 12px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin: 0px 5px 5px 0px
 }
 
 .item .texto .descripcion {
     font-size: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 0px 5px 5px 0px
 }
 
 main .flecha-home-fourth {
@@ -705,12 +716,16 @@ main .not-found .flecha-anterior {
 /* PATRONES DESKTOP */
 
 main .patrones .seccion-patrones {
-    padding: 60px 180px;
+    padding: 20px 180px;
     margin: 20px auto;
 }
 
 .patrones .flecha-anterior {
     margin: 20px 100px;
+}
+
+.patrones .text p {
+    padding: 20px 180px;
 }
 
 /* PATRON PAGINA DESKTOP */

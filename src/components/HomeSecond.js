@@ -52,6 +52,7 @@ function HomeSecond() {
         
             <div className="text">
                 <h1>Patrones</h1>
+                <p>La metodología utilizada propone el uso de patrones para el diseño de modelos de negocios circulares. Estos se inspiran en aspectos de la estrategia Resolve (regenerar, compartir, optimizar, circularizar, virtualizar e intercambiar), junto a las 9 R de transición de una economía lineal a una circular (Recuperar, reciclar, reconvertir, remanufacturar, reacondicionar, reparar, reusar, reducir, repensar, rechazar). Son estrategias de circularidad que se repiten al observar modelos de negocios circulares.</p>
             </div>
 
             <div className="seccion-patrones">
