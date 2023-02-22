@@ -18,7 +18,7 @@ export const NavbarWrapper = styled.nav`
     font-size: 30px;
     font-weight: 700;
     padding: 1rem 0.8rem;
-    color: white;
+    color: black;
     text-decoration: none;
   }
 

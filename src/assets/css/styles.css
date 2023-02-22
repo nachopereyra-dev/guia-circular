@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
 }
 
 html body #root{
@@ -15,14 +15,13 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(../img/home.jpg);
-    background-size: cover;
+    background-color: white;
 }
 
 /* HEADER MOBILE */
 
 header {
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid black;
     padding: 10px 0px;
     position: fixed;
     backdrop-filter: blur(8px);
@@ -76,7 +75,7 @@ main .sub-home-top {
 }
 
 .home-top .boton-patrones {
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 15px;
     text-decoration: none;
 }
@@ -97,7 +96,7 @@ main .home-top .flecha-home-top {
 /* HOME-SECOND MOBILE */
 
 main .home-second {
-    border-top: 3px solid white;
+    border-top: 3px solid black;
 
 }
 
@@ -122,7 +121,7 @@ main .home-second .seccion-patrones .patron {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px;
     width: 33.33%;
     text-decoration: none;
@@ -131,7 +130,7 @@ main .home-second .seccion-patrones .patron {
 .seccion-patrones .ver-mas-patrones {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px;
     width: 66.66%;
     text-decoration: none;
@@ -174,7 +173,7 @@ main .home-second .seccion-patrones .patron {
 /* HOME-THIRD MOBILE */
 
 main .home-third {
-    border-top: 3px solid white;
+    border-top: 3px solid black;
 }
 
 main .home-third .titulo-home-third h1 {
@@ -185,7 +184,7 @@ main .home-third .titulo-home-third h1 {
 
 .home-third .circulo {
     display: flex;
-    border: 1px solid white;
+    border: 1px solid black;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -208,7 +207,7 @@ main .home-third .titulo-home-third h1 {
 /* HOME-FOURTH MOBILE */
 
 main .home-fourth {
-    border-top: 3px solid white;
+    border-top: 3px solid black;
 }
 
 .home-fourth .seccion-sobre-proyecto {
@@ -237,7 +236,7 @@ main .home-fourth {
 
 .item .foto-circulo {
     display: flex;
-    border: 1px solid white;
+    border: 1px solid black;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -276,7 +275,7 @@ main .flecha-home-fourth {
 /* FOOTER MOBILE */
 
 main .footer {
-    border-top: 3px solid white;
+    border-top: 3px solid black;
 }
 
 .footer .contacto {
@@ -346,7 +345,7 @@ main .patrones .seccion-patrones .patron {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 5px;
     width: 33.33%;
     text-decoration: none;
@@ -355,7 +354,7 @@ main .patrones .seccion-patrones .patron {
 .seccion-patrones .ver-mas-patrones {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px;
     width: 66.66%;
     text-decoration: none;
@@ -469,7 +468,7 @@ main .empresas {
 
 .seccion-empresas .circulo-empresa {
     display: flex;
-    border: 1px solid white;
+    border: 1px solid black;
     width: 105px;
     height: 105px;
     border-radius: 50%;
@@ -569,7 +568,7 @@ main {
 
 header {
     border-bottom: none;
-    border-right: 4px solid white;
+    border-right: 4px solid black;
     padding: 0px 20px;
     position: fixed;
     backdrop-filter: blur(8px);
