@@ -60,7 +60,7 @@ header nav {
 /* HOME-TOP MOBILE */
 
 main .sub-home-top {
-    margin-top: 180px;
+    margin-top: 145px;
     margin-bottom: 60px;
     padding: 20px;
 }
@@ -126,6 +126,7 @@ main .home-second .seccion-patrones .patron {
     padding: 10px;
     width: 33.33%;
     text-decoration: none;
+    min-height: 140px;
 }
 
 .seccion-patrones .ver-mas-patrones {
@@ -237,15 +238,16 @@ main .home-fourth {
 
 .item .foto-circulo {
     display: flex;
-    border: 1px solid white;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 20px;
+    background-position: ;
 }
 
 .item .texto {
     width: 70%;
+
 }
 
 .item a {
@@ -256,13 +258,14 @@ main .home-fourth {
 
 .item .texto .nombre {
     font-size: 14px;
-    margin: 0px 5px 5px 0px
+    margin: 0px 8px 0px 0px;
 }
 
 .item .texto .descripcion {
-    font-size: 10px;
-    margin-top: 5px;
+    font-size: 12px;
+    margin-top: 1px;
     margin-bottom: 5px;
+    margin-left: 0px;
 }
 
 main .flecha-home-fourth {
@@ -350,6 +353,7 @@ main .patrones .seccion-patrones .patron {
     padding: 5px;
     width: 33.33%;
     text-decoration: none;
+    min-height: 140px;
 }
 
 .seccion-patrones .ver-mas-patrones {
@@ -520,7 +524,9 @@ main .sobre-proyecto {
 .sobre-proyecto .seccion-sobre-proyecto {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
+
 
 .sobre-proyecto .flecha-anterior {
     font-size: 32px;
@@ -541,8 +547,25 @@ main .sobre-proyecto {
     margin: 20px;
 }
 
-.sobre-proyecto .segundo {
-    margin-bottom: 40px;
+.sobre-proyecto a {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 75%;
+}
+
+.sobre-proyecto .text .seccion-sobre-proyecto .item .texto a {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.logos p {
+    text-align: center;
+}
+
+.sobre-proyecto .logo {
+    padding: 20px;
 }
 
 /* DESKTOP */
@@ -678,15 +701,10 @@ main .home-fourth {
     justify-content: center;
     width: 100%;
     margin: 20px
-
 }
 
 .seccion-sobre-proyecto .ver-mas-sobre-proyecto {
     margin: 15px auto 15px;
-}
-
-.item .texto {
-    width: 70%;
 }
 
 .item .texto .descripcion {
@@ -772,7 +790,6 @@ main .patrones .seccion-patrones {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .seccion-sobre-proyecto .item {
@@ -782,6 +799,7 @@ main .patrones .seccion-patrones {
 .sobre-proyecto .text {
     padding: 0px 180px 50px;
 }
+
 
 .sobre-proyecto .text h1 {
     margin: 0px
@@ -795,8 +813,16 @@ main .patrones .seccion-patrones {
     margin: 60px 20px;
 }
 
-.sobre-proyecto .segundo {
-    margin: 60px 20px;
+.sobre-proyecto .logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.sobre-proyecto .logo {
+    margin: auto;
+    max-width: 50%;
 }
 
 }

@@ -2,34 +2,50 @@ import React from "react";
 import Item from './ItemSobreProyecto'
 import Footer from "./Footer";
 import { Link, useNavigate } from "react-router-dom";
+import anto from '../assets/img/anto.png'
+import alejo from '../assets/img/alejo.png'
+import karina from '../assets/img/karina.png'
+import nadia from '../assets/img/nadia.png'
+import maxi from '../assets/img/maxi.png'
+import habitat from '../assets/img/habitat.png'
+import impacto from '../assets/img/impacto.png'
+import vectores from '../assets/img/vectores.png'
 
 let item1 = {
     nombre: 'Antonella Bulla',
     descripcion: 'Ingeniera en Telecomunicaciones',
-    foto: '',
+    foto: anto,
     in: 'https://www.linkedin.com/in/antonella-bulla-pellegrini/'
 }
 
 let item2 = {
-    nombre: 'Alejo Silvarrey ',
+    nombre: 'Alejo Silvarrey',
     descripcion: 'Doctorado en Desarrollo Regional Sustentable',
-    foto: '',
+    foto: alejo,
     in: 'https://www.linkedin.com/in/alejo-silvarrey-barruffa/ '
 }
 
 let item3 = {
     nombre: 'Karina Guerrero',
     descripcion: 'Licenciada en Administración - Contador',
-    foto: '',
+    foto: karina,
     in: 'https://www.linkedin.com/in/karina-guerrero-896b1240'
 }
 
 let item4 = {
-    nombre: 'Título',
-    descripcion: 'Lorem ipsum dolor sit amet consectetur. Sagittis faucibus  elementum leo diam risus  dapibus tincidunt.'
+    nombre: 'Nadia Sencion',
+    descripcion: 'Licenciada en Relaciones Institucionales',
+    foto: nadia,
+    in: 'https://www.linkedin.com/in/karina-guerrero-896b1240'
 }
 
-let sobreProyecto = [item1, item2, item3, item4]
+let item5 = {
+    nombre: 'Maximiliano Ortellado',
+    descripcion: 'Contador Público',
+    foto: maxi
+}
+
+let sobreProyecto = [item1, item2, item3, item4, item5]
 
 function SobreProyecto() {
 
@@ -63,7 +79,24 @@ function SobreProyecto() {
                                 })
                             }
                         
-                        <p className="segundo">Lorem ipsum dolor sit amet consectetur. Purus gravida pharetra blandit diam commodo vulputate id.</p>
+                        <div className="logos">
+
+                            <div className="logo">
+                                <p>Ejecución y desarrollo:</p>
+                                <a href="https://ucu.edu.uy/es/centro-habitat" target='_blank'><img src={habitat} alt=''/></a>
+                            </div>
+
+                            <div className="logo">
+                            <p>Metodología:</p>
+                            <a href="https://3vectores.com/" target='_blank'><img src={vectores}/></a>
+                            </div>
+
+                            <div className="logo">
+                            <p>Apoya:</p>
+                            <a href="https://sites.google.com/view/rutadeimpacto/inicio" target='_blank'><img src={impacto}/></a>
+                            </div>
+
+                        </div>
 
                     </div>
 

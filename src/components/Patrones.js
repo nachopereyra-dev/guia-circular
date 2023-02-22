@@ -73,7 +73,6 @@ let patron12 = {
     numero: 12,
     query: 'industria',
     titulo: 'Industria 4.0',
-    tituloSegundo: ' '
 }
 
 let patron13 = {
@@ -98,7 +97,6 @@ let patron16 = {
     numero: 16,
     query: 'remanufacturar',
     titulo: 'Re - manufacturar',
-    tituloSegundo: ' '
 }
 
 let patron17 = {
