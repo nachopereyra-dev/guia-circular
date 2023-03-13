@@ -60,7 +60,9 @@ let empresa7 = {
     id: 7,
     query: 'empresa-7',
     nombre: 'Wirapita',
-    etiqueta: 'Biodiseño'
+    etiqueta: 'Biodiseño',
+    contenido: 'Wirapita tech es una empresa uruguaya de triple impacto, social, económico y ambiental. Recolectan los residuos industriales y los convierten en energía potenciada (biofertilizantes y humus) que comercializan y logran mejorar la materia orgánica del suelo, sus propiedades físicas y su actividad biológica.',
+    web: 'https://wirapita.com/'
 }
 
 let empresa8 = {
@@ -85,7 +87,7 @@ let empresa10 = {
     id: 10,
     query: 'empresa-10',
     nombre: 'Piel de papel',
-    etiqueta: '',
+    etiqueta: 'Ecodiseño',
     contenido: 'Le dan una segunda vida a los desechos de frutas y verduras creando Papeles únicos, orgánicos, reciclados & sustentables',
     web: 'https://beacons.ai/pieldepapel'
 }
@@ -104,7 +106,7 @@ let empresa12 = {
     query: 'empresa-12',
     nombre: 'Lam Arte Textil',
     etiqueta: 'Ecodiseño',
-    contenido: '',
+    contenido: 'Moda sustentable con Tintes naturales e Impresión botánica. Lam Arte Textil es arte textil que busca preservar y honrar a la madre tierra. Sierras de Rocha ',
     web: 'https://lam-artetextil.com/'
 }
 

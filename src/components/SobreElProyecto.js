@@ -66,7 +66,7 @@ function SobreProyecto() {
                         <h1>Sobre el proyecto</h1>
                         <p className="primero">El objetivo del proyecto Guía Circular es la detección de oportunidades de generación de modelos de negocios en clave circular a partir de empresas radicadas en territorio. Para ello se trabajó sobre las industrias Cáñamo, Pesca artesanal y Movilidad identificando estas oportunidades.<br></br>
                         <br></br>
-                        Se usó la metodología CDT en cada una de las industrias, trabajando con los patrones de diseño circular.<br></br>
+                        Se usó la metodología Circular Design Thinking en cada una de las industrias, trabajando con los patrones de diseño circular.<br></br>
                         <br></br>
                         Se identificaron oportunidades de  generación de modelos de negocios a partir del analisis del ciclo de vida actual  actual de dichas industrias aplicando distintos patrones. 
                         </p>

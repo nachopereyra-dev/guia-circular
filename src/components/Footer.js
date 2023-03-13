@@ -7,11 +7,11 @@ function Footer() {
 
                 <div className='contacto'>
                     <p className='titulo'>Contacto:</p>
-                    <p>contacto@guiacricular.com.uy</p>
+                    <p>guia.circular@ucu.edu.uy</p>
                 </div>
 
                 <div className='copyright'>
-                    <p>Copyright 2022 | Guia circular</p>
+                    <p>Copyright 2023 | Guia circular</p>
                     <a href='https://nachopereyra.dev/' target='_blank' rel="noreferrer">nachopereyra.dev</a>
                 </div>
             </div>
