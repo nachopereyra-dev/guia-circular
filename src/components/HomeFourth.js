@@ -73,7 +73,7 @@ function HomeFourth() {
                     </Link>
 
                     <Link className="flecha-home-fourth" onClick={() => onClick('home-top')}>
-                        <i class="fa-solid fa-arrow-up"></i>
+                        <i className="fa-solid fa-arrow-up"></i>
                     </Link>
                 </div>
             

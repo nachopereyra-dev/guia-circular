@@ -24,7 +24,7 @@ function HomeTop() {
                 </div>
 
                 <Link className="flecha-home-top" onClick={() => onClick('home-patrones')}>
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <i className="fa-solid fa-arrow-down"></i>
                 </Link>
 
             </div>

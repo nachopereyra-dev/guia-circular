@@ -11,7 +11,7 @@ function itemSobreElProyecto(props) {
 
                     <div className="texto">
 
-                        { props.in ? <a href={props.in} target='_blank'><p className="nombre">{props.nombre}</p><i class="fa-brands fa-linkedin"></i></a> : <p className="nombre">{props.nombre}</p>}
+                        { props.in ? <a href={props.in} target='_blank'><p className="nombre">{props.nombre}</p><i className="fa-brands fa-linkedin"></i></a> : <p className="nombre">{props.nombre}</p>}
                         <p className="descripcion">{props.descripcion}</p>
                         { props.doctorado && <p className="descripcion">{props.doctorado}</p>}
                     </div>

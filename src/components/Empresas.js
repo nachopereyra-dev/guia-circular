@@ -114,7 +114,7 @@ function Empresas(props) {
             <div className="empresas">
 
                 <Link className="flecha-anterior" id="empresas" onClick={() => navigate(-1)}>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i className="fa-solid fa-arrow-left"></i>
                 </Link>
 
                 <div className="text">

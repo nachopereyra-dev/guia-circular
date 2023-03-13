@@ -14,7 +14,7 @@ function Patron(props) {
                         </div>
                         
                         <div className="flecha">
-                            <i class="fa-solid fa-arrow-right"></i>
+                            <i className="fa-solid fa-arrow-right"></i>
                         </div>
                 </Link>
         </>

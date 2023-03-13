@@ -20,7 +20,7 @@ function HomeThird() {
                 </Link>
 
                 <Link className="flecha-home-third" onClick={() => onClick('home-sobre-nosotros')}>
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <i className="fa-solid fa-arrow-down"></i>
                 </Link>
 
                 

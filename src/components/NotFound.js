@@ -12,7 +12,7 @@ function NotFound() {
                 <div className="not-found">
 
                     <Link className="flecha-anterior" onClick={() => navigate(-1)}>
-                        <i class="fa-solid fa-arrow-left"></i>
+                        <i className="fa-solid fa-arrow-left"></i>
                     </Link>
 
                     <h2>Ruta incorrecta 😅, vuelve atras</h2>

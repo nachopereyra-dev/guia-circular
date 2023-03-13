@@ -5,36 +5,43 @@ import Patron from './Patron'
 let patron2 = {
     numero: 2,
     titulo: 'Ecodiseño',
+    query: 'ecodiseño'
 }
 
 let patron3 = {
     numero: 3,
-    titulo: 'Recursos inteligentes'
+    titulo: 'Recursos inteligentes',
+    query: 'recursos-inteligentes'
 }
 
 let patron5 = {
     numero: 5,
-    titulo: 'Recursos compartidos'
+    titulo: 'Recursos compartidos',
+    query: 'recursos-compartidos'
 }
 
 let patron8 = {
     numero: 8,
-    titulo: 'Simbiosis industrial'
+    titulo: 'Simbiosis industrial',
+    query: 'simbiosis-industrial'
 }
 
 let patron11 = {
     numero: 11,
-    titulo: 'Intercambiar'
+    titulo: 'Intercambiar',
+    query: 'intercambiar'
 }
 
 let patron12 = {
     numero: 12,
-    titulo: 'Industria 4.0'
+    titulo: 'Industria 4.0',
+    query: 'industria'
 }
 
 let patron13 = {
     numero: 13,
-    titulo: 'Comunidades locales'
+    titulo: 'Comunidades locales',
+    query: 'comunidades-locales'
 }
 
 let patronesTrabajados = [patron2, patron3, patron5, patron8, patron11, patron12, patron13]
@@ -68,7 +75,7 @@ function HomeSecond() {
                 </Link>
 
                 <Link className="flecha-home-second" onClick={() => onClick('home-empresas')}>
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <i className="fa-solid fa-arrow-down"></i>
                 </Link>
 
             </div>

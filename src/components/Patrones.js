@@ -11,7 +11,7 @@ let patron1 = {
 
 let patron2 = {
     numero: 2,
-    query: 'ecodiseño',
+    query: 'ecodiseno',
     titulo: 'Ecodiseño'
 }
 
@@ -119,7 +119,7 @@ function Patrones(props) {
             <div className="patrones">
 
                 <Link className="flecha-anterior" id="patrones" onClick={() => navigate(-1)}>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i className="fa-solid fa-arrow-left"></i>
                 </Link>
                 
                 <div className="text">
