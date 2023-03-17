@@ -8,6 +8,8 @@ import Empresas from './Empresas'
 import EmpresaPagina from './EmpresaPagina';
 import SobreElProyecto from "./SobreElProyecto";
 import NotFound from './NotFound';
+import Oportunidades from './Oportunidades';
+import OportunidadPagina from './OportunidadPagina';
 
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
 
                     <Route path="/empresas" element={<Empresas />}/>
                     <Route path="/empresas/:nombre" element={<EmpresaPagina />}/>
+
+                    <Route path="/oportunidades" element={<Oportunidades />}/>
+                    <Route path="/oportunidades/:nombre" element={<OportunidadPagina />}/>
 
                     <Route path="/sobre-nosotros" element={<SobreElProyecto />} />   
                     <Route path='*' element={<NotFound />} />                        

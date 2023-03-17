@@ -533,6 +533,33 @@ main .empresa-pagina {
     margin-right: 10px;
 }
 
+/* OPORTUNIDADES */
+
+main .oportunidades {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.oportunidades .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px;
+    text-decoration: none;
+
+}
+
+.oportunidades .text h1 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 20px;
+}
+
+.oportunidades .text p {
+    margin: 20px
+}
+
 /* SOBRE-PROYECTO MOBILE */
 
 main .sobre-proyecto {

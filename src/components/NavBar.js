@@ -14,6 +14,7 @@ function Navbar({open, handleClick}) {
         <Link to={'/'} onClick={() => onClick()}>Home</Link>
         <Link to={'/patrones'} onClick={() => onClick()}>Patrones</Link>
         <Link to={'/empresas'} onClick={() => onClick()}>Empresas circulares</Link>
+        <Link to={'/oportunidades'} onClick={() => onClick()}>Oportunidades circulares</Link>
         <Link to={'/sobre-nosotros'} onClick={() => onClick()}>Sobre el proyecto</Link>
       </NavbarWrapper>
     );
