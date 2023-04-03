@@ -562,7 +562,6 @@ main .oportunidades {
 
 .oportunidades .oportunidad {
     border: 1px solid white;
-    border-radius: 10px;
     padding: 20px;
     margin: 20px;
     min-width: 120px;
