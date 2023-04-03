@@ -11,7 +11,7 @@ let patron1 = {
 
 let patron2 = {
     numero: 2,
-    query: 'ecodiseno',
+    query: 'ecodiseño',
     titulo: 'Ecodiseño'
 }
 

@@ -533,7 +533,7 @@ main .empresa-pagina {
     margin-right: 10px;
 }
 
-/* OPORTUNIDADES */
+/* OPORTUNIDADES MOBILE */
 
 main .oportunidades {
     display: flex;
@@ -557,8 +557,26 @@ main .oportunidades {
 }
 
 .oportunidades .text p {
-    margin: 20px
+    margin: 20px 0px 20px 20px
 }
+
+.oportunidades .oportunidad {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    min-width: 120px;
+}
+
+.oportunidad p {
+    text-align: center;
+}
+
+.oportunidad a {
+    text-decoration: none;
+}
+
+/* OPORTUNIDADES-PAGINA MOBILE */
 
 /* SOBRE-PROYECTO MOBILE */
 
@@ -834,6 +852,39 @@ main .patrones .seccion-patrones {
 
 .empresa-pagina .descripcion-empresa, .web-empresa {
     padding: 20px 180px;
+}
+
+/* OPORTUNIDADES DESKTOP */
+
+main .oportunidades {
+    margin-left: 20%;
+}
+
+.oportunidades .flecha-anterior {
+    margin: 20px 100px;
+}
+
+.oportunidades .text p {
+    padding: 20px 180px;
+    margin: 20px;
+}
+
+.oportunidades .seccion-oportunidades {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 75%;
+    text-decoration: none;
+}
+
+.oportunidades .oportunidad {
+    width: 50%;
+}
+
+.oportunidad p {
+    text-align: center;
 }
 
 /* SOBRE-PROYECTO DESKTOP */
