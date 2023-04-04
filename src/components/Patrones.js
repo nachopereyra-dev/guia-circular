@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Patron from './Patron'
 import { Link, useNavigate } from 'react-router-dom'
@@ -111,6 +111,10 @@ let patrones = [patron1, patron2, patron3, patron4, patron5, patron6, patron7, p
 function Patrones(props) {
 
     const navigate = useNavigate()
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>

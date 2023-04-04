@@ -13,10 +13,8 @@ let patron2 = {
     numero: 2,
     query: 'ecodiseño',
     titulo: 'Ecodiseño',
-    descripcion: 'Considera la reducción del impacto ambiental y un mejor uso de los recursos a través de un diseño del producto o servicio que contemple todas las etapas de su ciclo de vida, desde la obtención de las materias primas a su fin de vida.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'A partir de descartes en industria de Cannabis (fibra, plásticos), en Pesca (cuero), Movilidad (partes).'
-}
+    descripcion: 'Considera la reducción del impacto ambiental y un mejor uso de los recursos a través de un diseño del producto o servicio que contemple todas las etapas de su ciclo de vida, desde la obtención de las materias primas a su fin de vida.'
+   }
 
 let patron3 = {
     numero: 3,
@@ -36,9 +34,7 @@ let patron5 = {
     numero: 5,
     query: 'recursos-compartidos',
     titulo: 'Recursos compartidos',
-    descripcion: 'Brinda acceso a productos, equipamiento, espacios, y otros recursos, maximizando su utilización ya sea en una modalidad de contrato entre pares (P2P, B2B), alquiler a mediano plazo, suscripción y uso recurrente, entre otros.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'El sector movilidad puede contribuir en las industrias Cannabis y Pesca a los efectos de lograr sectores más circulares. (TRANSPORTE)'
+    descripcion: 'Brinda acceso a productos, equipamiento, espacios, y otros recursos, maximizando su utilización ya sea en una modalidad de contrato entre pares (P2P, B2B), alquiler a mediano plazo, suscripción y uso recurrente, entre otros.'
 }
 
 let patron6 = {
@@ -59,36 +55,28 @@ let patron8 = {
     numero: 8,
     query: 'simbiosis-industrial',
     titulo: 'Simbiosis industrial',
-    descripcion: 'Utilizar materiales, productos o infraestructura de una cadena de valor a otra a través de la "cascada" de recursos. Esto ahorra costos de nuevos materiales incluyendo energía.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'En sector pesca y cannabis se generan descartes orgánicos donde se pueden usar como insumo para biocombustibles y uso en transporte.'
+    descripcion: 'Utilizar materiales, productos o infraestructura de una cadena de valor a otra a través de la "cascada" de recursos. Esto ahorra costos de nuevos materiales incluyendo energía.'
 }
 
 let patron9 = {
     numero: 9,
     query: 'reparar',
     titulo: 'Reparar',
-    descripcion: 'Hacer de la reparación, mantenimiento y reacondicionamiento de productos una propuesta de valor al ofrecer alto rendimiento y servicios accesible a un precio competitivo.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'Patrón aplicable a los tres sectores.'
+    descripcion: 'Hacer de la reparación, mantenimiento y reacondicionamiento de productos una propuesta de valor al ofrecer alto rendimiento y servicios accesible a un precio competitivo.'
 }
 
 let patron10 = {
     numero: 10,
     query: 'regenerar',
     titulo: 'Regenerar',
-    descripcion: 'Integrar la regeneración de personas, comunidades y/o naturaleza al modelo de negocios. Centrarse en prácticas regenerativas que mejoran, reconstruyen y regeneran la vida y los ecosistemas.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'El uso de técnicas de pesca diferentes es una oportunidad para la regeneración del ecosistema marino.'
+    descripcion: 'Integrar la regeneración de personas, comunidades y/o naturaleza al modelo de negocios. Centrarse en prácticas regenerativas que mejoran, reconstruyen y regeneran la vida y los ecosistemas.'
 }
 
 let patron11 = {
     numero: 11,
     query: 'intercambiar',
     titulo: 'Intercambiar',
-    descripcion: 'Implementar los cambios necesarios para reemplazar materiales, fuentes de energía, procesos y/o tecnologías por otros que permitan optimizar y ahorrar recursos a fin de mitigar el impacto.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'En las tres industrias el cambio en las fuentes de energía es una oportunidad para generar un impacto menor.'
+    descripcion: 'Implementar los cambios necesarios para reemplazar materiales, fuentes de energía, procesos y/o tecnologías por otros que permitan optimizar y ahorrar recursos a fin de mitigar el impacto.'
 }
 
 let patron12 = {
@@ -96,27 +84,21 @@ let patron12 = {
     query: 'industria',
     titulo: 'Industria',
     tituloSegundo: '4.0',
-    descripcion: 'Desarrollo de estrategias de fabricación con la ayuda de tecnologías 4.0 como la automatización, la analítica de big data, la transparencia y trazabilidad de la información y las capacidades de personalización masiva (machine learning, impresión 3D), entre otras.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'Blockchain para trazabilidad de Cannabis.'
+    descripcion: 'Desarrollo de estrategias de fabricación con la ayuda de tecnologías 4.0 como la automatización, la analítica de big data, la transparencia y trazabilidad de la información y las capacidades de personalización masiva (machine learning, impresión 3D), entre otras.'
 }
 
 let patron13 = {
     numero: 13,
     query: 'comunidades-locales',
     titulo: 'Comunidades locales',
-    descripcion: 'Fortalecer y empoderar a las comunidades locales optando por lo que está disponible localmente en primer lugar, la creación de capacidades y redes, la co-creación de soluciones, la mejora del empleo y la reducción de las desigualdades. Transition Network, Movimiento Slow Livin.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'Tanto en los sectores de Cannabis como Pesca, el desarrollo de comunidades locales para trabajos inherentes a la producción del sector como para el desarrollo de subproductos que permiten el empoderamiento de mujeres y desarrollo de nuevos productos.'
+    descripcion: 'Fortalecer y empoderar a las comunidades locales optando por lo que está disponible localmente en primer lugar, la creación de capacidades y redes, la co-creación de soluciones, la mejora del empleo y la reducción de las desigualdades. Transition Network, Movimiento Slow Livin.'
 }
 
 let patron14 = {
     numero: 14,
     query: 'producto-como-servicio',
     titulo: 'Producto como servicio',
-    descripcion: 'La “servitización” se enfoca en entregar la experiencia de uso en lugar de la venta de productos. El cliente paga por el tiempo de uso y el proveedor mantiene la propiedad del producto durante todo el ciclo de vida.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'En la industria movilidad se visualiza una gran oportunidad para evitar el uso ineficiente de vehículos y maximizar la capacidad de lso mismos.'
+    descripcion: 'La “servitización” se enfoca en entregar la experiencia de uso en lugar de la venta de productos. El cliente paga por el tiempo de uso y el proveedor mantiene la propiedad del producto durante todo el ciclo de vida.'
 }
 
 let patron15 = {
@@ -138,9 +120,7 @@ let patron17 = {
     numero: 17,
     query: 'reciclar',
     titulo: 'Reciclar',
-    descripcion: 'Utilizar recursos descartados, recuperar para revalorizar y reintroducir al mercado nuevos materiales o productos de mejor calidad, con un valor social o ambiental. Reduce el uso de materias primas y el consumo de recursos.',
-    oportunidadTitulo: 'Oportunidades circulares',
-    oportunidad: 'En las tres industrias se detecto oportunidad de reciclaje de descarte.'
+    descripcion: 'Utilizar recursos descartados, recuperar para revalorizar y reintroducir al mercado nuevos materiales o productos de mejor calidad, con un valor social o ambiental. Reduce el uso de materias primas y el consumo de recursos.'
 }
 
 let patrones = [patron1, patron2, patron3, patron4, patron5, patron6, patron7, patron8, patron9, patron10, patron11, patron12, patron13, patron14, patron15, patron16, patron17]

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from 'react-router-dom'
 import Footer from "./Footer";
 import Oportunidad from './Oportunidad'
@@ -36,6 +36,10 @@ let oportunidades = [oportunidad1, oportunidad2, oportunidad3, oportunidad4]
 function Oportunidades() {
 
     const navigate = useNavigate()
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>

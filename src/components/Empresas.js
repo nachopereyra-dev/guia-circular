@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Empresa from './Empresa'
 import Footer from "./Footer";
 import { Link, useNavigate } from 'react-router-dom'
@@ -106,6 +106,10 @@ let empresas = [empresa1, empresa2, empresa3, empresa4, empresa5, empresa6, empr
 function Empresas(props) {
 
     const navigate = useNavigate()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>

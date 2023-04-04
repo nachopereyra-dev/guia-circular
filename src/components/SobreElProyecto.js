@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Item from './ItemSobreProyecto'
 import Footer from "./Footer";
 import { Link, useNavigate } from "react-router-dom";
@@ -50,6 +50,10 @@ let sobreProyecto = [item1, item2, item3, item4, item5]
 function SobreProyecto() {
 
     const navigate = useNavigate()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>

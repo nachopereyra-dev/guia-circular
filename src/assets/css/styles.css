@@ -10,6 +10,7 @@ html, body,  #root{
     display: flex;
     flex-direction: column;
     overflow: auto;
+    min-height: 100vh;
 }
 
 main {
@@ -493,6 +494,7 @@ main .empresas {
 
 main .empresa-pagina {
     margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .empresa-pagina .flecha-anterior {
@@ -510,7 +512,9 @@ main .empresa-pagina {
 }
 
 .empresa-pagina p {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
 }
 
 .empresa-pagina .patron-etiqueta {
@@ -547,7 +551,6 @@ main .oportunidades {
     justify-content: flex-start;
     margin: 20px 30px;
     text-decoration: none;
-
 }
 
 .oportunidades .text h1 {
@@ -560,15 +563,12 @@ main .oportunidades {
     margin: 20px 0px 20px 20px
 }
 
-.oportunidades .oportunidad {
-    border: 1px solid white;
-    padding: 20px;
-    margin: 20px;
-    min-width: 120px;
-}
-
 .oportunidad p {
     text-align: center;
+    border: 1px solid white;
+    padding: 40px 20px;
+    margin: 20px;
+    min-width: 120px;
 }
 
 .oportunidad a {
@@ -576,6 +576,30 @@ main .oportunidades {
 }
 
 /* OPORTUNIDADES-PAGINA MOBILE */
+
+main .oportunidad-pagina {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.oportunidad-pagina .flecha-anterior {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.oportunidad-pagina h2 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 20px;
+}
+
+.oportunidad-pagina p {
+    margin: 20px 0px 20px 20px
+}
 
 /* SOBRE-PROYECTO MOBILE */
 
@@ -808,7 +832,7 @@ main .patrones .seccion-patrones {
 /* PATRON PAGINA DESKTOP */
 
 .patron-pagina .text {
-    padding: 30px 180px 250px;
+    padding: 30px 180px 40px;
 }
 
 .patron-pagina .flecha-anterior {
@@ -884,6 +908,21 @@ main .oportunidades {
 
 .oportunidad p {
     text-align: center;
+}
+
+/* OPORTUNIDADES-PAGINA DESKTOP */
+
+main .oportunidad-pagina {
+    margin-left: 20%;
+}
+
+main .oportunidad-pagina .flecha-anterior {
+    margin: 20px 100px;
+}
+
+.oportunidad-pagina p {
+    padding: 20px 180px;
+    margin: 10px 20px 40px;
 }
 
 /* SOBRE-PROYECTO DESKTOP */
