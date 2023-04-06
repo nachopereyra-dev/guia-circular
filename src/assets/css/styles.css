@@ -180,9 +180,15 @@ main .home-third {
     border-top: 3px solid white;
 }
 
-main .home-third .titulo-home-third h1 {
+main .general-home-third .titulo-home-third {
     text-align: center;
     margin: 100px auto 60px;
+    width: 90%;
+}
+
+.general-home-third .home-oportunidades .titulo-home-oportunidades {
+    text-align: center;
+    margin: 50px auto 60px;
     width: 90%;
 }
 
@@ -192,7 +198,7 @@ main .home-third .titulo-home-third h1 {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 80px auto;
+    margin: 20px auto;
     text-decoration: none;
 }
 
@@ -200,7 +206,22 @@ main .home-third .titulo-home-third h1 {
     margin: auto;
 }
 
-.home-third .flecha-home-third {
+.home-oportunidades .rectangulo {
+    display: flex;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 70%;
+    margin: auto;
+}
+
+
+.rectangulo p {
+    margin: auto;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.general-home-third  .home-oportunidades .flecha-home-third {
     font-size: 32px;
     display: flex;
     justify-content: center;
@@ -668,7 +689,7 @@ main {
     width: 100%;
 }
 
-.home-top, .home-second, .home-third, .home-fourth, .footer, .not-found {
+.home-top, .home-second, .general-home-third, .home-fourth, .footer, .not-found {
     margin-left: 20%;
 }
 
@@ -753,16 +774,34 @@ main .home-second .seccion-patrones {
 /* HOME-THIRD DESKTOP */
 
 main .home-third {
-    padding: 80px 120px;
+    padding: 0px 120px;
     margin-bottom: 0;
 }
 
-.home-third .circulo {
-    margin: 100px auto;
+main .general-home-third .titulo-home-third {
+    text-align: center;
+    margin: 100px auto 40px;
+    width: 90%;
 }
 
-.home-third .flecha-home-third {
-    margin: 80px auto 100px;
+.general-home-third .home-oportunidades .titulo-home-oportunidades {
+    margin: 40px auto;
+}
+
+.home-third .circulo {
+    margin: 0px auto;
+}
+
+.home-oportunidades .rectangulo {
+    margin: 10px auto;
+}
+
+.general-home-third .home-oportunidades .flecha-home-third {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 120px;
+    text-decoration: none;
 }
 
 /* HOME-FOURTH DESKTOP */
