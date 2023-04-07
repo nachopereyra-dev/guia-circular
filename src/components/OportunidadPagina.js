@@ -6,28 +6,28 @@ let oportunidad1 = {
     id: 1,
     query: 'oportunidad-productos-organicos',
     nombre: 'Orgánicos',
-    contenido: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+    contenido: 'Aquí podrás encontrar lista de empresas que generan residuos de origen vegetal para que puedas aprovecharlas.'
 }
 
 let oportunidad2 = {
-    id: 1,
+    id: 2,
     query: 'oportunidad-productos-plasticos',
     nombre: 'Plásticos',
-    contenido: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+    contenido: 'Aquí podrás encontrar empresas que generan  residuos plásticos según su clasificación que puedan serte útiles en tu proceso productivo.'
 }
 
 let oportunidad3 = {
-    id: 1,
+    id: 3,
     query: 'oportunidad-productos-textiles',
     nombre: 'Textiles',
-    contenido: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+    contenido: 'En esta sección descubrí dónde buscar descartes textiles para darle una oportunidad en tu ciclo productivo.'
 }
 
 let oportunidad4 = {
-    id: 1,
+    id: 4,
     query: 'oportunidad-productos-madera',
     nombre: 'Madera',
-    contenido: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.'
+    contenido: 'En esta sección te presentamos las empresas que generan descartes en madera que puedan ser aprovechados.'
 }
 
 let oportunidades = [oportunidad1, oportunidad2, oportunidad3, oportunidad4]

@@ -19,6 +19,7 @@ main {
     width: 100%;
     background-image: url(../img/home.jpg);
     background-size: cover;
+    min-height: 100vh;
 }
 
 /* HEADER MOBILE */
@@ -305,8 +306,15 @@ main .footer {
     border-top: 3px solid white;
 }
 
+.footer .sub-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer .contacto {
-    margin: 40px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -315,7 +323,7 @@ main .footer {
 }
 
 .footer .copyright {
-    margin: 40px auto;
+    margin: 30px auto;
     text-align: center;
     font-size: 12px;
 }

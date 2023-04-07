@@ -5,14 +5,18 @@ function Footer() {
         <>
             <div className='footer'>
 
-                <div className='contacto'>
-                    <p className='titulo'>Contacto:</p>
-                    <p>guia.circular@ucu.edu.uy</p>
-                </div>
+                <div className='sub-footer'>
 
-                <div className='copyright'>
-                    <p>Copyright 2023 | Guia circular</p>
-                    <a href='https://nachopereyra.dev/' target='_blank' rel="noreferrer">nachopereyra.dev</a>
+                    <div className='contacto'>
+                        <p className='titulo'>Contacto:</p>
+                        <p>guia.circular@ucu.edu.uy</p>
+                    </div>
+
+                    <div className='copyright'>
+                        <p>Copyright 2023 | Guia circular</p>
+                        <a href='https://nachopereyra.dev/' target='_blank' rel="noreferrer">nachopereyra.dev</a>
+                    </div>
+
                 </div>
             </div>
         </>
